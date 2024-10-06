@@ -22,5 +22,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/about_me_button" />
+    <Button
+        android:id="@+id/buttonQuickCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quick_calc"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
 
 </LinearLayout>

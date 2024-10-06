@@ -1,8 +1,28 @@
 <resources>
+    <string name="calc_text">CALC</string>
     <string name="app_name">MyApp</string>
     <string name="hello_world">Hello World!</string>
     <string name="about_me_button">About Me</string>
     <string name="my_name">Jiawei Liu</string>
     <string name="my_email">liu.jiawei5@northeastern.edu</string>
     <string name="about_me_message">%1$s\n%2$s</string>
+    <string name="calc">CALC</string>
+
+
+    <string name="x">x</string>
+    <string name="_0">0</string>
+    <string name="equals_button_text">=</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="minus_button_text">-</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="add_button_text">+</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="quick_calc">Quick Calc</string>
+
 </resources>

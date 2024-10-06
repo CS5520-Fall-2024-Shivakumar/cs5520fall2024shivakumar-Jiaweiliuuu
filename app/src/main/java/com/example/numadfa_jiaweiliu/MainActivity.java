@@ -1,5 +1,6 @@
 package com.example.numadfa_jiaweiliu;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     private Button buttonAboutMe;
+    private Button buttonQuickCalc;  // Declare new button for Quick Calc
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,5 +31,19 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, message, Toast.LENGTH_LONG).show();
             }
         });
+        // Initialize the Quick Calc button
+        buttonQuickCalc = findViewById(R.id.buttonQuickCalc);
+
+        // Set click listener for Quick Calc button
+        buttonQuickCalc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Create an Intent to start QuickCalcActivity
+                Intent intent = new Intent(MainActivity.this, QuickCalcActivity.class);
+                startActivity(intent);  // Start the new activity
+            }
+        });
+
+
     }
 }
