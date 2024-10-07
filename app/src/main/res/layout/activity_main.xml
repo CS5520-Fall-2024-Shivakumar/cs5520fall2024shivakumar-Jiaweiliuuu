@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Hello World! Text -->
+    <TextView
+        android:id="@+id/textViewHelloWorld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- About Me Button -->
+    <Button
+        android:id="@+id/buttonAboutMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me_button" />
+    <Button
+        android:id="@+id/buttonQuickCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quick_calc"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
