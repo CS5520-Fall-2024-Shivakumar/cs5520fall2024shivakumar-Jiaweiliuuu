@@ -24,6 +24,8 @@
         </activity>
         <!-- Declare QuickCalcActivity -->
         <activity android:name=".QuickCalcActivity" />
+        <activity android:name=".AboutMeActivity" />
+
     </application>
 
 </manifest>

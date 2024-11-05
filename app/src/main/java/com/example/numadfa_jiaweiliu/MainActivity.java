@@ -22,15 +22,12 @@ public class MainActivity extends AppCompatActivity {
         buttonAboutMe = findViewById(R.id.buttonAboutMe);
 
         // Set a click listener
-        buttonAboutMe.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String name = getString(R.string.my_name);
-                String email = getString(R.string.my_email);
-                String message = getString(R.string.about_me_message, name, email);
-                Toast.makeText(MainActivity.this, message, Toast.LENGTH_LONG).show();
-            }
+        // In MainActivity.java
+        buttonAboutMe.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, AboutMeActivity.class);
+            startActivity(intent);
         });
+
         // Initialize the Quick Calc button
         buttonQuickCalc = findViewById(R.id.buttonQuickCalc);
 
