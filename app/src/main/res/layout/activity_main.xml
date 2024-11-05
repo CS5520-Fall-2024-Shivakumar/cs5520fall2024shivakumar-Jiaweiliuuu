@@ -29,6 +29,13 @@
         android:text="@string/quick_calc"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/buttonContactsCollector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts Collector"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
 
 
 </LinearLayout>
